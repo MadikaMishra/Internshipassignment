@@ -1,0 +1,149 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   PMC Barbershop
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-[#121212] text-white">
+  <header class="flex items-center justify-between px-6 py-4 max-w-[1280px] mx-auto">
+   <div class="flex items-center space-x-12">
+    <a class="block" href="#">
+     <img alt="PMC Barbershop logo in gold and white" class="w-[60px] h-[60px]" height="60" src="https://storage.googleapis.com/a1aa/image/6e2c619e-8509-401c-57f1-7c5b16c8e58c.jpg" width="60"/>
+    </a>
+    <nav class="hidden md:flex space-x-10 font-semibold text-white">
+     <a class="hover:underline" href="#home">
+      Home
+     </a>
+     <a class="hover:underline" href="#about">
+      About
+     </a>
+     <a class="hover:underline" href="#services">
+      Services
+     </a>
+     <a class="hover:underline" href="#gallery">
+      Gallery
+     </a>
+     <a class="hover:underline" href="#contact">
+      Contact
+     </a>
+    </nav>
+   </div>
+   <div class="hidden md:flex items-center space-x-8 text-white font-semibold">
+    <button aria-label="Change color theme" class="text-xl hover:text-yellow-400">
+     <i class="fas fa-palette">
+     </i>
+    </button>
+    <button aria-label="Change language" class="text-xl hover:text-yellow-400">
+     <i class="fas fa-globe">
+     </i>
+    </button>
+    <div class="flex items-center space-x-2">
+     <i class="fas fa-phone-alt text-yellow-400">
+     </i>
+     <span>
+      +19408081569
+     </span>
+    </div>
+    <button class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-md px-5 py-2" type="button">
+     Book an Appointment
+    </button>
+   </div>
+  </header>
+  <main class="max-w-[1280px] mx-auto px-6 py-12 md:py-20 flex flex-col md:flex-row items-start gap-12" id="home">
+   <section class="flex-1 max-w-xl">
+    <p class="text-yellow-500 font-semibold mb-2 text-sm md:text-base">
+     Premium Barber Services in Denton
+    </p>
+    <h1 class="text-white font-extrabold text-4xl md:text-5xl leading-tight mb-3">
+     Classic Cuts, Modern Style
+     <br/>
+     <span class="text-yellow-500 underline decoration-yellow-700 decoration-4">
+      Premium Barber Shop
+     </span>
+    </h1>
+    <p class="text-gray-400 mb-8 text-base md:text-lg max-w-lg">
+     At PMC Barbershop, we combine traditional barbering techniques with modern styling to give you the perfect look. Our experienced barbers deliver precision cuts, beard grooming, and relaxing hot towel shaves in a classic barbershop atmosphere.
+    </p>
+    <div class="inline-flex items-center space-x-2 bg-[#1a1a1a] rounded-full px-4 py-2 mb-10 text-gray-300 text-sm md:text-base max-w-max">
+     <i class="fas fa-map-marker-alt text-yellow-500">
+     </i>
+     <span>
+      Denton, TX
+     </span>
+    </div>
+    <button class="w-full mb-4 border border-gray-700 rounded-md py-3 flex items-center justify-center space-x-3 text-white font-semibold hover:bg-gray-900 transition" type="button" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">
+     <i class="fas fa-phone-alt">
+     </i>
+     <span>
+      Our Services
+     </span>
+    </button>
+    <button class="w-full bg-yellow-500 hover:bg-yellow-600 rounded-md py-3 flex items-center justify-center space-x-3 text-white font-semibold transition" type="button" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+     <i class="fas fa-phone-alt">
+     </i>
+     <span>
+      Book Now
+     </span>
+    </button>
+   </section>
+   <section class="flex-1 max-w-3xl space-y-8">
+    <img alt="Barbershop team photo with 8 people standing in a modern barbershop interior, wearing black PMC t-shirts and jeans, smiling at the camera" class="rounded-md w-full object-cover" height="450" src="https://storage.googleapis.com/a1aa/image/e60b78bb-ab38-4ffe-1a75-5e6f5ec1d425.jpg" width="800"/>
+   </section>
+  </main>
+  <section class="max-w-[1280px] mx-auto px-6 py-12 md:py-20" id="about">
+   <h2 class="text-yellow-500 font-bold text-3xl mb-6 text-center md:text-left">
+    About Us
+   </h2>
+   <p class="text-gray-300 max-w-4xl mx-auto md:mx-0 text-center md:text-left text-lg leading-relaxed">
+    Fama Barber Shop and Beauty Salon is dedicated to providing premium barber services with a modern touch. Our experienced team combines traditional barbering techniques with contemporary styling to ensure every client leaves looking and feeling their best. Located in Denton, TX, we pride ourselves on precision cuts, beard grooming, and a welcoming atmosphere.
+   </p>
+  </section>
+  <section class="max-w-[1280px] mx-auto px-6 py-12 md:py-20 bg-[#1a1a1a]" id="services">
+   <h2 class="text-yellow-500 font-bold text-3xl mb-6 text-center md:text-left">
+    Our Services
+   </h2>
+   <ul class="max-w-4xl mx-auto md:mx-0 space-y-4 text-gray-300 text-lg list-disc list-inside">
+    <li>Precision Haircuts</li>
+    <li>Beard Grooming and Trimming</li>
+    <li>Hot Towel Shaves</li>
+    <li>Hair Styling and Modern Cuts</li>
+    <li>Kids and Senior Cuts</li>
+    <li>Facial Treatments and Skin Care</li>
+    <li>Hair Coloring and Highlights</li>
+   </ul>
+  </section>
+  <section class="max-w-[1280px] mx-auto px-6 py-12 md:py-20" id="contact">
+   <h2 class="text-yellow-500 font-bold text-3xl mb-6 text-center md:text-left">
+    Contact Us
+   </h2>
+   <div class="max-w-4xl mx-auto md:mx-0 text-gray-300 text-lg space-y-4">
+    <p>
+     <span class="font-semibold text-yellow-500">Address:</span> 500 N Bell Ave #109, Denton, TX 76209, United States
+    </p>
+    <p>
+     <span class="font-semibold text-yellow-500">Phone:</span> <a class="hover:underline" href="tel:+19406129127">+1 940-612-9127</a>
+    </p>
+    <p>
+     <span class="font-semibold text-yellow-500">Email:</span> <a class="hover:underline" href="mailto:info@famabarbershop.com">info@famabarbershop.com</a>
+    </p>
+    <p>
+     <span class="font-semibold text-yellow-500">Business Hours:</span> Open ⋅ Closes 7 pm
+    </p>
+    <p>
+     <span class="font-semibold text-yellow-500">Get Directions:</span> <a class="text-yellow-400 hover:underline" href="https://www.google.com/maps/dir/?api=1&destination=500+N+Bell+Ave+%23109,+Denton,+TX+76209" target="_blank" rel="noopener noreferrer">Google Maps</a>
+    </p>
+   </div>
+  </section>
+ </body>
+</html>
